@@ -9,13 +9,30 @@
   </head>
 
   <body>
-    <div id="root">
-    </div>
+    <header>
+      <img src="MOo-Logo.png" alt="MOo TV Show Project">
+      <div class="input-group">
+        <label for="">Search : </label>
+        <input class="form-control" id="search" type="search">
+      </div>
+      <div>
+        <select name="episode" id="episode">
+          <option value="">Episode Selector</option>
+        </select>
+      </div>
+    </header>
+    <main>
+      <div id="root">
+      </div>
+    </main>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
+    <footer><a href="https://tvmaze.com/" target="_blank" rel="noreferrer">© TVMaze.com</a></footer>
     <script src="episodes.js"></script>
 
     <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
+
+
