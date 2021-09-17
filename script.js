@@ -18,7 +18,7 @@ import createSelect from './createSelect.js'
 
 let allEpisodes = []
 
-const url = 'https://api.tvmaze.com/shows/5/episodes';
+const url = 'https://api.tvmaze.com/shows/82/episodes';
 
 function fetchData (url) {
   fetch(url)
