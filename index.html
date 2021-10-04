@@ -10,19 +10,29 @@
 
   <body>
     <header>
-      <img src="MOo-Logo.png" alt="MOo TV Show Project">
+      <img src="img/MOo-Logo.png" alt="MOo TV Show Project">
+    </div>
+    <h1>Unlimited films, series ...</h1>
+    <button class="btn">All Episodes</button>
+    <div>
+    </header>
+    <section class="navbar">
       <div class="input-group">
-        <label for="">Search : </label>
-        <input class="form-control" id="search" type="search">
+        <input class="form-control" id="search" placeholder="Search" type="search">
       </div>
       <div>
-        <select name="episode" id="episode">
+        <select class="select" name="episode" id="episode">
           <option value="">Episode Selector</option>
         </select>
       </div>
-    </header>
+      <div>
+        <select class="select" name="show" id="show">
+          <option value="">Show Selector</option>
+        </select>
+      </div>
+    </section>
     <main>
-      <div id="root">
+      <div id="container">
       </div>
     </main>
 
