@@ -3,19 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TV Show Project | My Name (My GitHub username)</title>
+    <title>TV Show Project | Morteza Khojasteh (Morteza-Khojasteh)</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
-    <div id="root">
+    <header>
+      <img src="img/MOo-Logo.png" alt="MOo TV Show Project">
     </div>
+    <h1>Unlimited films, series ...</h1>
+    <button class="btn">All Episodes</button>
+    <div>
+    </header>
+    <section class="navbar">
+      <div class="input-group">
+        <input class="form-control" id="search" placeholder="Search" type="search">
+      </div>
+      <div>
+        <select class="select" name="episode" id="episode">
+          <option value="">Episode Selector</option>
+        </select>
+      </div>
+      <div>
+        <select class="select" name="show" id="show">
+          <option value="">Show Selector</option>
+        </select>
+      </div>
+    </section>
+    <main>
+      <div id="container">
+      </div>
+    </main>
 
     <!-- Loads a provided function called getAllEpisodes() which returns all episodes -->
+    <footer><a href="https://tvmaze.com/" target="_blank" rel="noreferrer">© TVMaze.com</a></footer>
     <script src="episodes.js"></script>
 
     <!-- Loads YOUR javascript code -->
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
+
+
